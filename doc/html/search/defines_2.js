@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['manufacturer_5fname_170',['MANUFACTURER_NAME',['../driver__mb85rcxx_8c.html#aaa2b8f5b105c3019df0cb346f472e803',1,'driver_mb85rcxx.c']]],
-  ['max_5fcurrent_171',['MAX_CURRENT',['../driver__mb85rcxx_8c.html#a2989837a37d6d63b59c6dd541b785435',1,'driver_mb85rcxx.c']]]
+  ['manufacturer_5fname_0',['MANUFACTURER_NAME',['../driver__mb85rcxx_8c.html#aaa2b8f5b105c3019df0cb346f472e803',1,'driver_mb85rcxx.c']]],
+  ['max_5fcurrent_1',['MAX_CURRENT',['../driver__mb85rcxx_8c.html#a2989837a37d6d63b59c6dd541b785435',1,'driver_mb85rcxx.c']]]
 ];

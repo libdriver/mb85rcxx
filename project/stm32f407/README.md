@@ -87,7 +87,7 @@ mb85rcxx: interface is IIC.
 mb85rcxx: driver version is 1.0.
 mb85rcxx: min supply voltage is 1.7V.
 mb85rcxx: max supply voltage is 5.5V.
-mb85rcxx: max current is 0.02mA.
+mb85rcxx: max current is 1.20mA.
 mb85rcxx: max temperature is 85.0C.
 mb85rcxx: min temperature is -40.0C.
 ```

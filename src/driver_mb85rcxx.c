@@ -43,7 +43,7 @@
 #define MANUFACTURER_NAME         "RAMXEED"                 /**< manufacturer name */
 #define SUPPLY_VOLTAGE_MIN        1.7f                      /**< chip min supply voltage */
 #define SUPPLY_VOLTAGE_MAX        5.5f                      /**< chip max supply voltage */
-#define MAX_CURRENT               0.02f                     /**< chip max current */
+#define MAX_CURRENT               1.20f                     /**< chip max current */
 #define TEMPERATURE_MIN           -40.0f                    /**< chip min operating temperature */
 #define TEMPERATURE_MAX           85.0f                     /**< chip max operating temperature */
 #define DRIVER_VERSION            1000                      /**< driver version */
@@ -375,7 +375,7 @@ uint8_t mb85rcxx_write(mb85rcxx_handle_t *handle, uint32_t address, uint8_t *buf
     {
         handle->debug_print("mb85rcxx: write out of range.\n");                                               /* write out of range */
        
-        return 1;                                                                                             /* return error */
+        return 4;                                                                                             /* return error */
     }
     page_remain = (uint8_t)(8 - address % 8);                                                                 /* set page remain */
     if (len <= page_remain)                                                                                   /* check length */

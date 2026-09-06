@@ -1,3 +1,9 @@
+## 1.0.3 (2026-09-06)
+
+## Bug Fixes
+
+- fix read and write errors
+
 ## 1.0.2 (2026-06-23)
 
 ## Bug Fixes
